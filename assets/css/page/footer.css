@@ -17,12 +17,17 @@
 
 .menu-footer .title {
     text-transform: uppercase;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    color: hsl(273, 4%, 51%);
+    font-weight: 700;
+    letter-spacing: 1px;
 }
 .menu-footer-list {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 .menu-footer-list li {
     text-transform: uppercase;
-    margin: 5px 0;
+    margin: 10px 0;
+    color: hsl(256, 26%, 20%);
+    font-weight: 700;
 }
