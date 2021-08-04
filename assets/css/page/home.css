@@ -14,21 +14,26 @@
     min-height: 433px;
 }
 #home .content {
-    padding: 40px 15px;
+    padding: 60px 15px;
     background: url('../../images/bg-pattern-intro-left-mobile.svg') no-repeat top left,
-                url('../../images/bg-pattern-intro-right-mobile.svg') no-repeat bottom right;
+                url('../../images/bg-pattern-intro-right-mobile.svg') no-repeat right 300px;
 }
 #home .title {
     font-size: 44px;
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
 }
 #home .description {
     padding: 20px;
+    line-height: 25px;
 }
 #home .button-view-plans {
-    padding: 10px;
+    padding: 10px 25px;
     color: white;
     background: transparent;
     border: 2px solid white;
     cursor: pointer;
     text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
 }
