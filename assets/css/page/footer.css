@@ -1,0 +1,28 @@
+#footer {
+    text-align: center;
+}
+.footer-header {
+    background-image: url('../../images/bg-pattern-footer-mobile.svg');
+    background-repeat: no-repeat;
+    padding: 80px;
+    height: 200px;
+}
+#footer .social {
+    display: flex;
+    justify-content: space-around;
+}
+.footer-logo {
+    margin-bottom: 20px;
+}
+
+.menu-footer .title {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.menu-footer-list {
+    margin-bottom: 30px;
+}
+.menu-footer-list li {
+    text-transform: uppercase;
+    margin: 5px 0;
+}
