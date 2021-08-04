@@ -1,5 +1,5 @@
 /*------------------------*/
-/*------ HEADER ------*/
+/*------ HEADER ----------*/
 /*------------------------*/
 #header {
     background-color: #fff;
@@ -20,8 +20,40 @@
 .menu {
     display: none;
 }
-
-
+/*------------------------*/
+/*------ HOME ------------*/
+/*------------------------*/
+#home {
+    background-color: hsl(256, 26%, 20%);
+    text-align: center;
+    color: white;
+}
+#home .img-background {
+    background-image: url('../images/image-intro-desktop.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    min-height: 433px;
+}
+#home .content {
+    padding: 40px 15px;
+    background: url('../images/bg-pattern-intro-left-mobile.svg') no-repeat top left,
+                url('../images/bg-pattern-intro-right-mobile.svg') no-repeat bottom right;
+}
+#home .title {
+    font-size: 44px;
+}
+#home .description {
+    padding: 20px;
+}
+#home .button-view-plans {
+    padding: 10px;
+    color: white;
+    background: transparent;
+    border: 2px solid white;
+    cursor: pointer;
+    text-transform: uppercase;
+}
 /*------------------------*/
 /*------ ATTIBUTION ------*/
 /*------------------------*/
