@@ -1,10 +1,25 @@
 #cards {
     text-align: center;
     padding: 40px 15px;
+    padding-top: 60px;
 }
 #cards .title {
     font-size: 40px;
     margin-bottom: 20px;
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
+    color: hsl(256, 26%, 20%);
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+#cards .title:before {
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 1px;
+    background: hsl(256, 26%, 20%);
+    top: -20px;
 }
 .card {
     padding: 20px;
@@ -13,9 +28,14 @@
     margin-bottom: 20px;
 }
 .subtitle {
-    font-size: 22px;
+    font-size: 24px;
     margin-bottom: 15px;
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
+    color: hsl(256, 26%, 20%);
 }
 .text {
     line-height: 25px;
+    color: hsl(273, 4%, 51%);
+    font-weight: 400;
 }
