@@ -1,2 +1,8 @@
+/* ----- CSS RESET 
+----------------------------*/
 @import url('./general.css');
-@import url('./mobile.css');
+
+/* ----- PAGE 
+----------------------------*/
+@import url('./page/header.css');
+@import url('./page/home.css');
