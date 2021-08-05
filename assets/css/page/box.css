@@ -13,6 +13,8 @@
 #box .container .title {
     font-size: 44px;
     margin-bottom: 40px;
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
 }
 #box .box-button {
     padding: 10px;
@@ -21,4 +23,16 @@
     border: 2px solid white;
     cursor: pointer;
     text-transform: uppercase;
+}
+@media (min-width: 768px) {
+    #box .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #box .container .title {
+        margin: 0;
+    }
 }
