@@ -5,7 +5,7 @@
 .footer-header {
     background-image: url('../../images/bg-pattern-footer-mobile.svg');
     background-repeat: no-repeat;
-    border-bottom: 1px solid hsl(273, 4%, 51%);
+    border-bottom: 2px solid hsla(276, 4%, 51%, 0.336);;
     margin-bottom: 20px;
     padding: 80px;
     height: 200px;
