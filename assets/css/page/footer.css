@@ -24,10 +24,29 @@
 }
 .menu-footer-list {
     margin-bottom: 50px;
+    list-style: none;
 }
 .menu-footer-list li {
     text-transform: uppercase;
     margin: 10px 0;
     color: hsl(256, 26%, 20%);
     font-weight: 700;
+}
+
+@media (min-width: 768px) {
+    #footer .container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    .footer-header {
+        display: flex;
+        justify-content: space-between;
+    }
+    #footer .social {
+        gap: 20px;
+    }
+    .menus {
+        display: flex;
+        justify-content: space-around;
+    }
 }
