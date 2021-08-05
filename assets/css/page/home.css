@@ -37,3 +37,21 @@
     font-weight: 700;
     letter-spacing: 1px;
 }
+/*------------------------*/
+/*------ MEDIA QUERY -----*/
+/*------------------------*/
+@media (min-width: 768px) {
+    #home .container {
+        display: flex;
+        text-align: left;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    #home .container .img-background {
+        width: 50%;
+        order: 2;
+    }
+    #home .description {
+        padding: 20px 0;
+    }
+}
