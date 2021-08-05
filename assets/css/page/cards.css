@@ -5,7 +5,7 @@
 }
 #cards .title {
     font-size: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
     font-family: 'DM Serif Display', serif;
     font-weight: 400;
     color: hsl(256, 26%, 20%);
@@ -17,8 +17,8 @@
     content: '';
     position: absolute;
     width: 50%;
-    height: 1px;
-    background: hsl(256, 26%, 20%);
+    height: 2px;
+    background: hsla(276, 4%, 51%, 0.336);;
     top: -20px;
 }
 .card {
@@ -54,5 +54,9 @@
     }
     #cards .container-cards {
         display: flex;
+        gap: 20px;
+    }
+    .card {
+        padding: 0;
     }
 }
