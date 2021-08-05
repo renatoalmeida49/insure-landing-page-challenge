@@ -49,6 +49,9 @@
     #cards .title {
         justify-content: flex-start;
     }
+    #cards .title:before {
+        width: 10%;
+    }
     #cards .container-cards {
         display: flex;
     }
