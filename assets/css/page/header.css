@@ -3,6 +3,7 @@
 /*------------------------*/
 #header {
     background-color: #fff;
+    position: relative;
 }
 #header .container {
     width: 100%;
@@ -19,4 +20,40 @@
 }
 .menu {
     display: none;
+}
+.menu ul {
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    padding: 30px 15px;
+}
+.menu ul li {
+    margin: 40px 0;
+    text-transform: uppercase;
+    color: white;
+    font-size: 22px;
+    font-weight: 700;
+}
+.plans-menu {
+    font-family: 'Karla', sans-serif;
+    width: 100%;
+    border: 2px solid #fff;
+    background: transparent;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 22px;
+    padding: 15px;
+}
+.menu.active {
+    display: block;
+    position: absolute;
+    top: 75px;
+    left: 0;
+    height: calc(100vh - 75px);
+    width: 100%;
+    background: hsl(270, 9%, 17%);
+    background-image: url('../../images/bg-pattern-mobile-nav.svg');
+    background-repeat: no-repeat;
+    background-position: bottom left;
 }
