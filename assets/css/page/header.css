@@ -12,6 +12,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 20px;
+    margin: 0 auto;
 }
 .button-mobile {
     border: none;
@@ -56,4 +57,53 @@
     background-image: url('../../images/bg-pattern-mobile-nav.svg');
     background-repeat: no-repeat;
     background-position: bottom left;
+}
+/*------------------------*/
+/*------ MEDIA QUERIES ---*/
+/*------------------------*/
+@media (min-width: 760px) {
+    .button-mobile {
+        display: none;
+    }
+    .menu {
+        display: block;
+    }
+    .menu ul {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        list-style: none;
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+    .menu ul li {
+        margin: 0;
+        text-transform: uppercase;
+        color: hsl(273, 4%, 51%);
+        font-size: 16px;
+        font-weight: 700;
+        cursor: pointer;
+        transition: all .3s;
+    }
+    .menu ul li:hover {
+        color: hsl(270, 9%, 17%);
+    }
+    .plans-menu {
+        font-family: 'Karla', sans-serif;
+        width: 100%;
+        border: 2px solid hsl(270, 9%, 17%);
+        background: transparent;
+        color: hsl(270, 9%, 17%);
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 16px;
+        padding: 6px 20px;
+        cursor: pointer;
+        transition: all .3s;
+    }
+    .plans-menu:hover {
+        background: hsl(270, 9%, 17%);
+        color: #fff;
+    }
 }
