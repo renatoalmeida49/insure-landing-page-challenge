@@ -11,7 +11,7 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    min-height: 433px;
+    height: 433px;
 }
 #home .content {
     padding: 60px 15px;
@@ -41,15 +41,21 @@
 /*------ MEDIA QUERY -----*/
 /*------------------------*/
 @media (min-width: 768px) {
+    #home {
+        margin-bottom: 90px;
+    }
     #home .container {
         display: flex;
         text-align: left;
         max-width: 1200px;
         margin: 0 auto;
+        position: relative;
     }
     #home .container .img-background {
         width: 50%;
         order: 2;
+        position: relative;
+        top: 98px;
     }
     #home .description {
         padding: 20px 0;
