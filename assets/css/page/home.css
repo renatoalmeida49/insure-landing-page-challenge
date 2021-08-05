@@ -43,6 +43,9 @@
 @media (min-width: 768px) {
     #home {
         margin-bottom: 90px;
+        background: url('../../images/bg-pattern-intro-left-desktop.svg') no-repeat 0 230px,
+                url('../../images/bg-pattern-intro-right-desktop.svg') no-repeat right 0% bottom 100px,
+                hsl(256, 26%, 20%);
     }
     #home .container {
         display: flex;
@@ -50,6 +53,9 @@
         max-width: 1200px;
         margin: 0 auto;
         position: relative;
+    }
+    #home .content {
+        background-image: none;
     }
     #home .container .img-background {
         width: 50%;
