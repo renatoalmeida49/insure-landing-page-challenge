@@ -56,6 +56,9 @@
     }
     #home .content {
         background-image: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
     #home .container .img-background {
         width: 50%;
@@ -65,5 +68,8 @@
     }
     #home .description {
         padding: 20px 0;
+    }
+    #home .button-view-plans {
+        max-width: 150px;
     }
 }
