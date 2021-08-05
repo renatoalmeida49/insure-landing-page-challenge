@@ -39,3 +39,17 @@
     color: hsl(273, 4%, 51%);
     font-weight: 400;
 }
+
+@media (min-width: 768px) {
+    #cards .container {
+        text-align: left;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    #cards .title {
+        justify-content: flex-start;
+    }
+    #cards .container-cards {
+        display: flex;
+    }
+}
